@@ -1,0 +1,60 @@
+<html>
+<body>
+<title>Órgão Colegiado</title>
+<TABLE BORDER="1" BGCOLOR="blue" width="100%">
+<TH ><font color="white">Cadastro de conselho</font></TH>
+</TABLE>
+
+<FORM NAME="form conselho" method="post">
+<h4>Programa</h4>
+<table widht="100%">
+    <tr>
+    <td width="15%"><font size="3" face="arial"> Unidade</font>
+    <td><input type="text" name="codUnidade" size="5"></td>
+    <td><input type="text" name="Unidade" size="80"></td>
+    </tr>
+    <tr>
+    <td width="15"><font size="3" face="arial"> Pograma</font>
+    <td><input type="text" name="codUnidade" size="5"></td>
+    <td><input type="text" name="programa" size="80"></td>
+    </tr>
+    </table>
+
+<h4>conselho de programa de pós-graduação</h4>
+<table width="100%">
+    <tr>
+    <td width="15%"><font size="3" face="arial">codigo</font>
+     <td><input type="text" name="codigo" size="5"></td>
+     </tr>
+     <tr>  
+   <td width="15%"><font size="3" face="arial">Nome</font></td>
+   <td><input type="text" name="nome" size="100"></td>
+   </tr>
+   <tr>
+    <td width="15%"><font size="3" face="arial">tipo</font></td>
+    <td>
+        <select name="tipo">
+            <option >
+            <option value="1">COMISSOES TRANSITORIAS DE ESTUDOS
+            <option value="2">CONSELHO DE DEPARTAMENTO
+            <option value="3">COMISSOES PERMANENTES DE UNIDADE ADMINISTRATIVA
+            </select> 
+            </td>
+            </tr>
+            <tr>
+              <td width="15%"><font size="3" face="arial">Fundamentos</font></td>
+              <td>
+                <TEXTAREA NAME="fundamentos" cols=50 rows="3"></TEXTAREA>
+              </td>
+              </tr>
+              <tr>
+                <td align="center" colepan="2">
+                 <input type="submit" value="salvar">
+                 </td>
+                 </tr>
+
+</table>
+</FORM>
+<a style="background: green; padding: 15px; color: white;" href="index.html">Voltar para começo</a>
+</body>    
+</html>

@@ -1,0 +1,77 @@
+.atra{
+    width: 60%;
+    height: 200px;
+    border: 2px solid blue;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+.divinput{
+    text-align: center;
+}
+input{
+    text-align: center;
+    width: 30%;
+    height: 70px;
+}
+.numero{
+    display: flex;
+    text-align: center;
+}
+#que{
+    background: blue;
+    border: 1px solid gold;
+    color: white;
+    font-size: 30px;
+    width: 67px;
+}
+#raf, #dan{
+    /*display: inline-block;*/
+    width: 67px;
+    background: blue;
+    border: 1px solid gold;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px ) {
+    .atra{
+    width: 100%;
+    }
+    #que, #raf, #dan{
+        font-size: 15px;
+        width: 36px;
+        height: 35px;
+    } 
+}
+@media only screen and (max-width: 800px) {
+
+#que, #raf, #dan{
+    font-size: 20px;
+    width: 58px;
+} 
+}
+button{
+    background: blue;
+
+}
+.espaco{
+    height: 30px;
+}
+.shift{
+    background: white;
+}
+.hre{
+    text-align: center;
+}
+.hrefa1{
+    background: rgb(0, 255, 85);
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}

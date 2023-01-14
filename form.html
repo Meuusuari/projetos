@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    input{
+        width: 70%;
+        height: 50px;
+        text-align: center;
+        color: blue;
+        font-size: 15px;
+    }
+    p{
+        color: red;
+    }
+    #valor{
+        width: 100px;
+        background: green;
+        cursor: pointer;
+        height: 80px;
+    }
+
+</style>
+<body>
+    <h1>Preencha o formulário</h1>
+    <form action="">
+        <p id="paragrafo"></p>
+        <input id="input" type="text" placeholder="Qual seu nome">
+
+        <p id="para"></p>
+        <input id="vazio" type="text" placeholder="Qual seu telefone">
+
+        <p id="tank"></p>
+        <input id="vago" type="text" placeholder="Qual o nome da sua mãe">
+        
+        <p id="menos"></p>
+        <input id="seco" type="text" placeholder="Qual o nome do seu pai">
+        
+        <p id="muito"></p>
+        <input id="pouco" type="text" placeholder="Qual sua idade"><br><br>
+        <input id="valor" onclick="negado()" value="Enviar">    
+    </form>
+    
+    
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@media screen and (max-width: 900px){
+    body{
+        background: white;
+    }
+    .img1{
+        width: 400px;
+    }
+    .headerclas{
+        width: 90%;
+    }
+    .link1{
+        font-size: 10px;
+        color: greenyellow;
+    }
+    .type{
+        width: 75%;
+    }
+    .inputText{
+       width: 90%;
+    }
+    .menu{
+        width: 90%;
+    }
+    .src1{
+        width: 50px;
+    }
+    .tex{
+        font-size: 20px;
+    }
+    .menu1{
+        height: 40px;
+    }
+    .perfil1{
+        height: 50px;
+        width: 50px;
+        margin-top: 0%;
+    }
+.header{
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 700px) {
+    .texto{
+        display: none;
+    }
+    .tex{
+        display: none;
+    }
+}

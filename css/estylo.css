@@ -1,0 +1,100 @@
+.div-principal{
+    width: 70%;
+    height: 620px;
+    background: rgb(3, 94, 155);
+    border: 3px solid deeppink;
+    text-align: center;
+    margin: auto;
+}
+ @media only screen and (max-width: 800px) {
+    .div-principal{
+        height: 900px;
+        width: 100%;
+    }
+    p{
+        font-size: 7px;
+    }
+    h1, h2{
+        font-size: 10px;
+    }
+    .projetos{
+        border: 2px solid blue;
+        width: 20px;
+        height: 20px;
+    }
+    .htmlcss-js{
+        font-size: 10px;
+    }
+    #teclas{
+        font-size: 5px;
+    }
+ }
+ @media only screen and (max-width: 600px) {
+    .div-principal{
+        height: 1500px;
+    }
+ }
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+h1, h2{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.htmlcss-js{
+    color: rgb(12, 236, 12);
+    font-size: 25px;
+}
+#teclas{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 236, 180);
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(214, 250, 11);
+}
+.projetos{
+    width: 90px;
+    height: 80px;
+    border: 2px solid deeppink;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.botoes{
+    width: 60%;
+    height: 220px;
+    text-align: center;
+    margin: auto;
+}
+#feito{
+    background: rgb(12, 247, 63);
+}
+#feito:hover{
+    background: yellow;
+}
+.linkado{
+    color: rgb(57, 14, 212);
+    font-size: 18px;
+    text-decoration: none;
+}
+#calculo{
+    font-size: 15px;
+    text-decoration: none;
+}

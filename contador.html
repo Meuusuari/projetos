@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contador.css">
+    <title>contador</title>
+</head>
+
+<body>
+  <header>
+    <h2 id="hoje"></h2>
+    <div id="data" class="hora"></div>
+  </header>
+    <h1>Contador</h1>
+    <div id="contador">clique para contar <br></div>
+    <p id="teste"></p>
+    
+    <button onclick="contar()">contar</button>
+    <h3>Cronômentro</h3>
+    <div class="cro">
+      <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+      
+      <button id="button-start">Start</button>
+      <button id="button-stop">Stop</button>
+      <button id="button-reset">Reset</button>
+  </div>
+  <h2>Bandeiras </h2>
+  <div id="verde">
+  <div class="verde">Ok</div>
+  </div>
+  <button onclick="verde()">verde</button>
+  <button onclick="amarela()">amarela</button>
+  <button onclick="vermelha()">vermelha</button>
+    <br><br>
+  <a href="index.html">Ir para Principal</a>
+   <script src="js/contador.js"></script>
+</body>
+</html>

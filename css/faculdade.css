@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+.div1{
+    background: blue;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+h1, h2{
+    color: white;
+    font-size: 30px;
+}
+.img1{
+    width: 800px;
+    height: 280px;
+}
+.div2{
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+.img2{
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 30px;
+    
+}
+.h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.texto{
+    color: black;
+    font-size: 60px;
+}
+.link{
+    background: blue;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 40px;
+}
+.link1{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+} 
+ .h6{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+ } 
+ .h61{
+    width: 30px;
+    font-size: 20px;
+}
+.linha{
+    border-top: 2px solid blue;
+    width: 35%;
+    margin-top: 41px;
+}
+
+.matri{
+    margin-left: 50px;
+    width: 75%;
+
+}
+ .inputText{
+    border: 2px solid burlywood;
+    height: 40px;
+    display: flex;
+    width: 60%;
+ }
+ .type{
+    width: 85%;
+ }
+input{
+    width: 100%;
+    height: 40px;
+    background: rgb(175, 174, 185);
+}
+.save{
+    width: 15%;
+}
+.save1{
+    width: 35px;
+    padding: 5px;
+}
+.href{
+    text-align: center;
+}
+.capthu{
+    border: 2px solid blue;
+    display: flex;
+    width: 60%;
+}
+.check{
+    margin-top: 8px;
+    font-size: 35px;
+    
+}
+.robo{
+    margin-left: 10px;
+    width: 70%;
+}
+.cap{
+    width: 70px;
+}
+.rel{
+    margin-top: 50px;
+    text-align: center;
+}
+.relf{
+    background: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.relf:hover{
+    background: red;
+    border-radius: 5px;
+    color: blue;
+}
+.menu{
+    display: flex;
+    margin-left: 30px;
+}
+.menu1{
+    height: 60px;
+}
+.divii{
+    width: 35%;
+}
+.src1{
+    margin: auto;
+    
+}
+.src2{
+    width: 15%;
+}
+
+.tex{
+    color: black;
+    font-size: 50px;
+}
+.tex1{
+    width: 35%;
+}
+.perfil1{
+    width: 80px;
+    float: right;
+    margin-top: 15px;
+}
+.header{
+    background: blue;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.divheader{
+    width: 40%;
+
+}
+.est{
+    width: 55%;
+}
+.hh3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imagem{
+    width: 280px;
+    height: 120px;
+}
+.navbar{
+   width: 50%;
+   margin-left: 30px;
+}
+.ref{
+    text-decoration: none;
+     font-size: 25px;
+}
+.ref:hover{
+    color: red;
+}
+.d12{
+    margin-bottom: 30px;
+}

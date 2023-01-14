@@ -1,0 +1,100 @@
+button{
+    cursor: pointer;
+    background: blue;
+    color: white;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+}
+div{
+    width: 58%;
+    
+    height: 100px;
+    margin-left: 20px;   
+}
+.hora{
+  width: 30%;
+  height: 100px;
+  text-align: right;
+  float: right;
+  border: 2px solid greenyellow;
+}
+.crono{
+  display: flex;
+  border: 2px solid blue;
+  background: orange;
+}
+#hoje{
+  color: green;
+  text-align: center;
+}
+body{
+  background: rgb(47, 172, 255);
+  margin-bottom: 50px;
+}
+.cro{
+width: 800px;
+margin: 30px auto;
+color: white;
+text-align: center;
+}
+h1, h2, h3 {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 2.6em;
+text-transform: uppercase;
+
+}
+#seconds, #tens {
+font-size: 2em;
+}
+button{
+background: orange;
+color: white;
+border: 1px solid white;
+text-decoration: none;
+cursor: pointer;
+font-size: 1.2em;
+padding: 18px 10px;
+width: 180px;
+margin: 10px;
+outline: grey;
+}
+button:hover{
+background: white;
+border : 1px solid white;
+color: blue;
+}
+h3{
+text-align: center;
+}
+#verde{
+    width: 200px;
+    height: 200px;
+}
+.verde{
+    width: 200px;
+    height: 200px;
+    background: green;
+    text-align: center;
+    font-size: 30px;
+}
+.amarela{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    text-align: center;
+    font-size: 30px;
+}
+.vermelha{
+    width: 200px;
+    height: 200px;
+    background: red;
+    text-align: center;
+    font-size: 30px;
+}
+a{
+    background: blue;
+    color: white;
+    padding: 10px;
+}

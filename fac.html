@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIA - Sistema de Informações Academicas</title>
+    <link rel="stylesheet" href="css/faculdade.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+<body>
+    <div class="menu">
+        <div onclick="clicado()" class="divii"><a href="#"><img class="menu1" src="img/menu.png"></a></div>
+       <div class="src2"><img class="src1" style="width: 150px;" src="img/Koala.jpg"></div>
+     <div class="tex1">
+        <h1 class="tex">Faculdade</h1>
+    </div>
+    <div class="perfil"><a href="#"><img class="perfil1" src="img/perfil1.png"></a></div>
+    </div>
+    <nav id="novo" class="navbar">
+     
+    </nav>
+
+    <header class="header">
+        <div class="divheader">
+            <h3>PREPARE SE PARA SEU FUTURO NA FACULDADE</h3>
+        </div>
+        <div class="est"><h3 class="hh3">EDUCAÇÃO COM QUALIDADE É AQUI NA</h3>
+            <img class="imagem" src="img/Koala.jpg"></div>
+    </header>
+
+    <div id="disciplina"></div>
+    <div id="prova"></div>
+   
+    
+    
+    <a href="index.html">voltar para 1ª página</a>
+
+    <script>
+        function clicado() {
+        let nono = "ola mundo"
+        document.getElementById("novo").innerHTML += `<div onclick="voltar()" style="background: red; cursor: pointer; margin-left: 80px; width: 25px; font-size: 30px; text-align: right;">X</div>
+        <div class="d12"><a onclick="disciplinas()" class="ref" href="#">Disciplinas</a></div>
+        <div class="d12"><a onclick="provas()" class="ref" href="#">Provas Oline</a></div>
+        <div class="d12"><a class="ref" href="#">acadêmico</a></div>
+        <div class="d12"><a class="ref" href="#">E-mail do Estudante</a></div>
+        <div class="d12"><a class="ref" href="#">Atendimento</a></div>
+        <div class="d12"><a class="ref" href="#">Financeiro</a></div>
+        <div class="d12"><a class="ref" href="#">Atividades Complementares</a></div>
+        <div class="d12"><a class="ref" href="#">Avalições/simulados</a></div>
+        <div class="d12"><a class="ref" href="#">Notas das Provas</a></div>`
+    }
+    function voltar() {
+        document.getElementById("novo").innerHTML = "";
+    }
+    function disciplinas() {
+    let materia = document.getElementById("disciplina");
+    materia.innerHTML += `    <p>Matemática é uma boa matéria para racíocinio rápido, e lógico, ao mesmo tempo também com programaçao</p>
+    <p>4754737634765784678567567865762347894369578697856765766578467856786576278634674678386648765765765765</p>
+    <h5>5 + 5 = 10</h5>
+    <h5>201 = 201</h5>
+    <h5>300 += 600</h5>
+    <h5>5 / 5 = 1</h5>
+    <h5>10 * 5 = 50</h5>
+    <h5>5 + 2 = 7</h5>
+    <h5>5 + 1 = 6</h5>
+    <h5>5 - 5 = 0</h5>
+    <h5>5 + 5 = 10</h5>
+    <h5>5 * 5 = 25</h5>
+    <a href="index1.html">voltar para principal</a>`;
+    }
+    function provas() {
+    let prova = document.getElementById("prova");
+    prova.innerHTML += `<style>
+            h1, h2{
+                color: red;
+            }
+        </style>
+    <div style="color: red;">
+    <h1>1) Marque a resposta certa:</h1>
+    <div style="margin-left: 40px;">
+        <div style="display:flex;"><input type="checkbox"><h2 style="color: red;">2 + 3 = 9</h2></div>
+        <div style="display:flex; style="color: red;""><input type="checkbox"><h2>2 + 8 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 7 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 - 7 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 7 = 8</h2></div>
+    </div>
+    <h1>2) Escolha a resposta certa:</h1>
+    <div style="margin-left: 40px;">
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 3³ = 29</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 8² = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>27 * 7 = 339</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 - 77 = -76</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>8 * 8 = 68</h2></div>
+    </div>
+    <h1>3) Marque certo:</h1>
+    <div style="margin-left: 40px;">
+        <div style="display:flex;"><input type="checkbox"><h2>2 / 23 = 51</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>9 * 81 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>11 + 87 = 99</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>106 - 7 = 89</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>-7 + 7 = 0</h2></div>
+    </div>
+    <h1>4) Marque a resposta certa, exceto:</h1>
+    <div style="margin-left: 40px;">
+        <div style="display:flex;"><input type="checkbox"><h2>2 - 3 = -1</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 / 8 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>7 + 7 = 14</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 - 7 = -5</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 * 7 = 14</h2></div>
+    </div>
+    <h1>5) Marque a resposta certa:</h1>
+    <div style="margin-left: 40px;">
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 3 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 8 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 7 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 - 7 = 9</h2></div>
+        <div style="display:flex;"><input type="checkbox"><h2>2 + 7 = 8</h2></div>
+    </div>
+    <a style="background: red;" href="index.html">Ir para o Inicio</a></div>`
+    }
+
+    </script>
+</body>
+</html>

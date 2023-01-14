@@ -1,0 +1,162 @@
+header{
+    background: yellowgreen;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.divss{
+    width: 100px;
+    height: 100px;
+    margin-right: 700px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.imagens{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.pinguins{
+
+    width: 70px;
+    margin-top: 5px;
+}
+.pangu{
+    display: flex;
+}
+.texto{
+    margin-left: 50px;
+    border: 3px solid black;
+    text-align: center;
+    width: 70%;
+}
+.escolha{
+    text-align: center;
+}
+.listas{
+    width: 60%;
+    margin: auto;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.li{
+    color: blue;
+}
+.headetarefa{
+    margin: auto auto;
+    display: flex;
+    border: 1px solid red;
+    width: 90%;
+    height: 120px;
+    margin-top: 10px;
+}
+#inputTarefa{
+width: 70%;
+height: 120px;
+text-align: center;
+font-size: 2rem;
+}
+.add{
+    width: 20%;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main{
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+.item{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 2%;
+    /*border: 2px solid red;*/
+    
+}
+.item.clicado{
+background: rgb(63, 153, 63);
+}
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: rgb(37, 30, 30);
+}
+.item-icone{
+    flex: 20%;
+ /*   border: 1px solid orange;*/
+    text-align: center;
+}
+.item-nome{
+    flex: 55%;
+    /*border: 1px solid deeppink;*/
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item-botao{
+    flex: 25%;
+}
+.delete{
+    background: red;
+    border: none;
+    height: 80px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+.segundo{
+    color: green;
+}
+.primeiro{
+    color:red;
+}
+.indax{
+    background: orange;
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
